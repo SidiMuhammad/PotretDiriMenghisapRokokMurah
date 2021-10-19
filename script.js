@@ -7,9 +7,9 @@ $(document).ready(function(){
 
     function responsive () {
         if (window.innerWidth < window.innerHeight) {
-            $("svg").attr({"width":"69.33vw", "height":"55vw"});
+            $("svg").attr({"width":"90vw", "height":"71.4vw"});
         } else if (window.innerWidth > window.innerHeight) {
-            $("svg").attr({"width":"69.33vh", "height":"55vh"});
+            $("svg").attr({"width":"94.55vh", "height":"75vh"});
         }
     }
 });
