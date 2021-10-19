@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  background: linear-gradient(#46005A, #B4326E) fixed no-repeat;
+}
+
+#contain {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#face {
+  bottom: 0;
+}
+
+@keyframes merem {
+    82%, 100% {opacity: 0;}
+    86%, 96% {opacity: 1;}
+}
+
+#rai-merem {
+  opacity: 0;
+  animation: merem 5s linear infinite;
+}
+
+@keyframes ujung-1 {
+  10% {transform: rotate(-16deg);}
+  15% {transform: rotate(-12deg);}
+  19% {transform: rotate(-14deg);}
+  24% {transform: rotate(-10deg);}
+  28% {transform: rotate(-16deg);}
+  33% {transform: rotate(-12deg);}
+  37% {transform: rotate(-14deg);}
+  55% {transform: rotate(2deg);}
+  60% {transform: rotate(-4deg);}
+  75% {transform: rotate(1deg);}
+  80% {transform: rotate(0deg);}
+  100% {transform: rotate(-0deg);}
+}
+
+#ujung-1 {
+  transform-box: fill-box;
+  transform-origin: 48.4% 0%;
+  animation: ujung-1 10s linear 200ms infinite;
+}
+
+@keyframes ujung-2 {
+  10% {transform: rotate(-18deg);}
+  15% {transform: rotate(-15deg);}
+  19% {transform: rotate(-16deg);}
+  24% {transform: rotate(-14deg);}
+  28% {transform: rotate(-18deg);}
+  33% {transform: rotate(-15deg);}
+  37% {transform: rotate(-16deg);}
+  55% {transform: rotate(2deg);}
+  60% {transform: rotate(-4deg);}
+  75% {transform: rotate(1deg);}
+  80% {transform: rotate(0deg);}
+  100% {transform: rotate(-0deg);}
+}
+
+#ujung-2 {
+  transform-box: fill-box;
+  transform-origin: 48.8% 0%;
+  animation: ujung-2 10s linear 400ms infinite;
+}
+
+@keyframes ujung-3 {
+  10% {transform: rotate(-27deg);}
+  15% {transform: rotate(-22deg);}
+  19% {transform: rotate(-25deg);}
+  24% {transform: rotate(-20deg);}
+  28% {transform: rotate(-27deg);}
+  33% {transform: rotate(-22deg);}
+  37% {transform: rotate(-25deg);}
+  55% {transform: rotate(2deg);}
+  60% {transform: rotate(-4deg);}
+  75% {transform: rotate(1deg);}
+  80% {transform: rotate(0deg);}
+  100% {transform: rotate(-0deg);}
+}
+
+#ujung-3 {
+  transform-box: fill-box;
+  transform-origin: 45.9% 14.1%;
+  animation: ujung-3 10s linear 600ms infinite;
+}
+
+#ujung-4 {
+  transform-box: fill-box;
+  transform-origin: 28.6% 12%;
+  animation: ujung-3 10s linear 400ms infinite;
+}
+
+#ujung-5 {
+  transform-box: fill-box;
+  transform-origin: 46.1% 3.4%;
+  animation: ujung-1 10s linear 600ms infinite;
+}
+
+#ujung-6 {
+  transform-box: fill-box;
+  transform-origin: 53.9% 6.1%;
+  animation: ujung-2 10s linear 800ms infinite;
+}
+
+@keyframes ujung-8 {
+  10% {transform: rotate(-7deg);}
+  15% {transform: rotate(-5deg);}
+  19% {transform: rotate(-6deg);}
+  24% {transform: rotate(-4deg);}
+  28% {transform: rotate(-7deg);}
+  33% {transform: rotate(-5deg);}
+  37% {transform: rotate(-6deg);}
+  55% {transform: rotate(1deg);}
+  60% {transform: rotate(-2deg);}
+  75% {transform: rotate(1deg);}
+  80% {transform: rotate(0deg);}
+  100% {transform: rotate(-0deg);}
+}
+
+#ujung-8 {
+  transform-box: fill-box;
+  transform-origin: 50% 15%;
+  animation: ujung-8 10s linear 400ms infinite;
+}
+
+@keyframes tangan-udud {
+  0% {transform: translateY(70%) rotate(-40deg);}
+  7% {transform: translateY(0%) rotate(0deg);}
+  16% {transform: translateY(0%) rotate(0deg);}
+  24% {transform: translateY(70%) rotate(-40deg);}
+  100% {transform: translateY(70%) rotate(-40deg);}
+}
+
+#tangan-udud {
+  transform-box: fill-box;
+  transform-origin: 0% 100%;
+  transform: translateY(70%) rotate(-40deg);
+  animation: tangan-udud 20s linear 6s infinite;
+}
+
+@keyframes lambe {
+  4% {opacity: 0;}
+  7% {opacity: 1;}
+  17% {opacity: 1;}
+  19% {opacity: 0;}
+  26% {opacity: 0;}
+  28% {opacity: 1;}
+  53% {opacity: 1;}
+  55% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+#lambe-2 {
+  opacity: 0;
+  animation: lambe 20s linear 6s infinite;
+}
+
+@keyframes bamba {
+    7% {fill: #C83200;stroke: #F05A28;}
+    10% {fill: #FF8200;stroke: #FFAA00;}
+    16% {fill: #FF8200;stroke: #FFAA00;}
+    19% {fill: #C83200;stroke: #F05A28;}
+}
+
+#bamba {
+  animation: bamba 20s linear 6s infinite;
+}
+
+@keyframes kukus-1 {
+    28% {opacity: 0;}
+    31% {opacity: 0.7;}
+    34% {opacity: 0;}
+    52% {opacity: 0;}
+    55% {opacity: 0.7;}
+    58% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+#kukus-1 {
+  opacity: 0;
+  animation: kukus-1 20s linear 6s infinite;
+}
+
+@keyframes kukus-2 {
+    32% {opacity: 0;}
+    35% {opacity: 0.7;}
+    38% {opacity: 0;}
+    48% {opacity: 0;}
+    51% {opacity: 0.7;}
+    54% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+#kukus-2 {
+  opacity: 0;
+  animation: kukus-2 20s linear 6s infinite;
+}
+
+@keyframes kukus-3 {
+    36% {opacity: 0;}
+    39% {opacity: 0.7;}
+    42% {opacity: 0;}
+    44% {opacity: 0;}
+    47% {opacity: 0.7;}
+    50% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+#kukus-3 {
+  opacity: 0;
+  animation: kukus-3 20s linear 6s infinite;
+}
+
+@keyframes kukus-4 {
+    40% {opacity: 0;}
+    43% {opacity: 0.7;}
+    46% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+#kukus-4 {
+  opacity: 0;
+  animation: kukus-4 20s linear 6s infinite;
+}
+
+@keyframes hembus {
+  0% {stop-opacity:0;}
+  28% {stop-opacity:0;}
+  30% {stop-opacity:1;}
+  46% {stop-opacity:1;}
+  48% {stop-opacity:0;}
+  100% {stop-opacity:0;}
+}
+
+#hembus-1 {
+  animation: hembus 20s linear 6s infinite;
+}
+
+#hembus-2 {
+  animation: hembus 20s linear 6.5s infinite;
+}
+
+#hembus-3 {
+  animation: hembus 20s linear 7s infinite;
+}
